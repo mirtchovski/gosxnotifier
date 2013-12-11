@@ -24,6 +24,7 @@ func init() {
 	NewTerminalNotifier()
 }
 
+// Load a terminal helper from a temporary dir
 func NewTerminalNotifier() error {
 	err := installTerminalNotifier()
 	if err != nil {
